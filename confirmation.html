@@ -54,13 +54,13 @@
 <body>
     <header>
         <img src="logo.png" class="logo" alt="شعار جامعة نجران">
-        <h1>تأكيد القبول في برنامج التجسير</h1>
+        <h1>تأكيد القبول في برنامج البكالوريوس</h1>
     </header>
 
     <div class="confirmation-box">
         <div id="studentDetails"></div>
         <div class="success-badge">
-            <h3>مبروك! تم قبولك في برنامج التحويل الخارجي تخصص إدارة الأعمال</h3>
+            <h3>مبروك! تم قبولك في برنامج البكالوريوس   تخصص  هندسة نووية</h3>
             <p>الرجاء إكمال عملية سداد الرسوم لتأكيد القبول</p>
         </div>
         <a href="finance.html" class="payment-btn">سداد الرسوم الآن</a>
@@ -75,7 +75,7 @@
             document.getElementById("studentDetails").innerHTML = `
                 <div class="details">
                     <h2>البيانات الشخصية</h2>
-                    <p><strong>اسم الطالبة:</strong> ${studentData.name}</p>
+                    <p><strong>اسم الطالب:</strong> ${studentData.name}</p>
                     <p><strong> رقم الطلب:</strong> ${studentData.id}</p>
                     <p><strong>التخصص:</strong> ${studentData.program}</p>
                     <p><strong>تاريخ القبول:</strong> ${new Date().toLocaleDateString()}</p>
